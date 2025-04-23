@@ -8,7 +8,7 @@ require "views/partials/head.php";
 <main>
   <div class="content-container mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
     <h1 class="heading"><?= $heading ?></h1>
-    <p class="intro-text">Velkommen til Home5-siden! Her kan du finde et flot billede nedenfor. <br> (Smooth formindskning langs skærmen)</p>
+    <p class="intro-text">Velkommen til Home5-siden! Her kan du finde et flot billede nedenfor. <br> (Omvendt, smooth, formindskning langs skærmen)</p>
     <h2 class="pic-text">Her er et stort billede af en bi</h2>
     <img src="images/image1.png" alt="image1" class="image">
   </div>

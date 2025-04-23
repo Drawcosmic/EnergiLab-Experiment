@@ -8,7 +8,7 @@ require "views/partials/head.php";
 <main>
   <div class="content-container mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
     <h1 class="heading"><?= $heading ?></h1>
-    <p class="intro-text">Velkommen til Home6-siden! Her kan du finde et flot billede nedenfor. <br> (Smooth formindskning langs skærmen)</p>
+    <p class="intro-text">Velkommen til Home6-siden! Her kan du finde et flot billede nedenfor. <br> (Omvendt knæk på lille skærm)</p>
     <h2 class="pic-text">Her er et stort billede af en bi</h2>
     <img src="images/image1.png" alt="image1" class="image">
   </div>
@@ -52,9 +52,10 @@ require "views/partials/head.php";
     margin: 20px auto;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 850px) {
     .image {
-      max-width: 100%;
+      max-width: 400px;
+      transform: rotate(180deg);
     }
   }
 </style>

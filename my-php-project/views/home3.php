@@ -52,7 +52,7 @@ require "views/partials/head.php";
     margin: 20px auto;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 850px) {
     .image {
       max-width: 400px;
     }
